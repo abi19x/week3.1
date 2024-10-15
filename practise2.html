@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Page</title>
+    <link href="practise.css" rel="stylesheet">
+</head>
+<body>
+    
+
+    <h2>Registraion Form</h2>
+
+    <fieldset>
+        <legend>Details</legend>
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" placeholder="Enter your first name" name="fname">
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" placeholder="Enter your last name" name="lname">
+        <br>
+        
+        <label for="city">Which of the following cities do you live in:</label>
+        <select id="city">
+            <option></option>
+            <option value="london">London</option>
+            <option value="leeds">Leeds</option>
+            <option value="birmingham">Birmingham</option>
+            <option value="manchester">Manchester</option>
+        </select>
+        <br>
+        <label for="age">Are you over 65 years of age:</label>
+        <input type="radio" name="age" value="yes" id="yes">
+        <input type="radio" name="age" value="no" id="no">
+        <br>
+        <label for="password">Create a password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <label for="comments">Your comments:</label>
+        <br>
+        <textarea id="comments" rows="4" cols="18"></textarea>
+        <br>
+        <button>Register</button>
+
+    </form>
+</fieldset>
+</body>
+</html>
